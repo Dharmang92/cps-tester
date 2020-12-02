@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mouse Clicker</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body oncontextmenu="return false;">
+        <div class="count">Number of Clicks: 0</div>
+        <div class="buttons">
+            <button onclick="setTimer(2000)">2s</button>
+            <button onclick="setTimer(5000)">5s</button>
+            <button onclick="setTimer(10000)">10s</button>
+            <button onclick="setTimer(30000)">30s</button>
+        </div>
+        <div class="timer">Timer has been set to</div>
+        <div class="box" onmousedown="boxClicked(event)">Click Here!</div>
+        <div class="cps">CPS : 0</div>
+    </body>
+
+    <script defer src="./script.js"></script>
+</html>
