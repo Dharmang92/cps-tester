@@ -1,3 +1,3 @@
-## cps-tester
+## CPS Tester
 
-### CPS - Clicks per second test. Also tests Right Click.
+#### cps - Clicks per second test. Also tests Right Click.
